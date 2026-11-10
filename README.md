@@ -1,4 +1,4 @@
-![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg)
+![](../../workflows/gds/badge.svg) ![](../../workflows/test/badge.svg)
 
 # Micro tile test for IHP SG13CMOS5L
 
