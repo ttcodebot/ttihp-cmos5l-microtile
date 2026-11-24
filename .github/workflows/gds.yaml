@@ -18,7 +18,7 @@ jobs:
         with:
           pdk: ihp-sg13cmos5l
           tools-repo: ttcodebot/tt-support-tools
-          tools-ref: microtile
+          tools-ref: microtile-uio-cmos5l
 
   precheck:
     needs: gds
@@ -28,7 +28,7 @@ jobs:
         uses: TinyTapeout/tt-gds-action/precheck@ttihp27a
         with:
           tools-repo: ttcodebot/tt-support-tools
-          tools-ref: microtile
+          tools-ref: microtile-uio-cmos5l
 
   gl_test:
     needs: gds
