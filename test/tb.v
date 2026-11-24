@@ -20,7 +20,7 @@ module tb ();
   wire [7:0] uo_out;
 
   // A micro tile only has clk, rst_n, ui_in and uo_out:
-  tt_um_micro_test user_project (
+  tt_um_micro_c5r0_d0a user_project (
       .ui_in (ui_in),   // Dedicated inputs
       .uo_out(uo_out),  // Dedicated outputs
       .clk   (clk),     // clock
